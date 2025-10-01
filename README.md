@@ -1,0 +1,2 @@
+This package allows you to attach components to scenes, create asset of type SceneMetaData from "Scene/MetaData" and add it to a scene asset field
+Add components to the SceneMetaData scriptable and acces them using SceneMetaData.TryGetData(scene.path, out var data), if you use the pin icon they will be also accesible at runtime using a extension method SceneAsset.TryGetComponent<Component>(out var component)
